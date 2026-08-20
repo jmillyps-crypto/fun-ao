@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 14</title>
+    <script>
+
+        var numeros = [8,7,6,5,4,3,2,1,]
+        function numPares (lista){
+            var quantidade = 0
+
+            for(var n = 0; n < lista.length; n = n + 1){
+                if (lista[n] % 2 == 0){
+                    quantidade += 1
+                }
+            }
+            
+            return quantidade
+        }
+        alert("A qautidade de numeros pares presentes na lista é: " + numPares(numeros))
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

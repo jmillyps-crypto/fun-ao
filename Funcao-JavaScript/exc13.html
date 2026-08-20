@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 13</title>
+    <script>
+
+        var alunos = ["Pedro", "Mariana", "Jamily", "Ana", "Maria"]
+        function procurarAluno (lista,nome){
+            var posicao = -1
+
+            for(var a = 0; a < lista.length; a = a + 1){
+                if (lista[a] == nome){
+                    posicao = 1
+                }
+            }
+
+            
+            if (posicao != -1) {
+                alert("Aluno encontrado!");
+            } else {
+                alert("Aluno não encontrado.");
+            }
+        }
+
+        var nome = prompt("Digite o nome do aluno:");
+
+        procurarAluno(alunos, nome);
+                
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

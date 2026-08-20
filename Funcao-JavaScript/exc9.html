@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 9</title>
+    <script>
+
+        function soma (num1,num2){
+            return num1 + num2
+        }
+        
+        function subtracao(num1,num2){
+            return num1 - num2
+        }
+
+        function multiplicacao (num1,num2){
+            return num1 * num2
+        }
+        function divisao(num1,num2){
+            return num1 / num2
+        }
+
+        var num1 = Number(prompt("Digite um numero: "))
+        var num2 = Number(prompt("Digite outro numero"))
+        var operacao = prompt("Digite a operação: soma, subtracao, multiplicacao ou divisao")
+
+        if (operacao == "soma") {
+            alert("O resultado é: " + soma(num1, num2));
+        } 
+        else if (operacao == "subtracao") {
+            alert("O resultado é: " + subtracao(num1, num2));
+        } 
+        else if (operacao == "multiplicacao") {
+            alert("O resultado é: " + multiplicacao(num1, num2));
+        } 
+        else if (operacao == "divisao") {
+            alert("O resultaddo é: " + divisao(num1, num2));
+        } else {
+            alert("Operação inválida.");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
